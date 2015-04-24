@@ -1,4 +1,4 @@
-package com.dreamers.roadmap;
+package com.dreamers.roadmap.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

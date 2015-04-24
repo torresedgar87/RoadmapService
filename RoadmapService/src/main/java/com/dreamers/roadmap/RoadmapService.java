@@ -12,6 +12,8 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
 import org.codehaus.jettison.json.JSONObject;
+
+import com.dreamers.roadmap.model.User;
  
 @Path("/user")
 public class RoadmapService {
