@@ -15,9 +15,9 @@ import org.codehaus.jettison.json.JSONObject;
 
 import com.dreamers.roadmap.model.User;
  
-@Path("/user")
+//@Path("/user")
 public class RoadmapService {
- 
+ /*
 	@GET
 	@Path("/{param_name}")
 	@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
@@ -68,5 +68,5 @@ public class RoadmapService {
 		user.setPassword(userObj.getString("password"));
 		
 		return Response.status(Status.OK).entity(user).build();
-	}
+	}*/
 }

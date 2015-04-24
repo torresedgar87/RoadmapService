@@ -55,6 +55,11 @@ public class DatabaseConnection {
 	
 	public void createUser(User user) throws Exception
 	{
+		if(getUser(user.getEmail()) != null)
+		{
+			return;
+		}
+		
 		PreparedStatement statement = db_connection.prepareStatement("INSERT INTO " + DB_NAME + ".User VALUES(?, ?, ?)");
 		
 		statement.setString(0, user.getName());
